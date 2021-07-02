@@ -4,8 +4,8 @@ export const baseColors = {
   failure: "#ED4B9E",
   primary: "#D94E41",
   primaryBright: "#D94E41",
-  primaryDark: "#1d3557",
-  secondary: "#8C342B",
+  primaryDark: "#16e03f",
+  secondary: "#a3ab30",
   success: "#9B9694",
   warning: "#FFB237",
 };
