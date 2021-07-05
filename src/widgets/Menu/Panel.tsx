@@ -33,7 +33,7 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
     width: ${({ isPushed }) => `${isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED}px`};
   }
 `;
-
+/*
 const Panel: React.FC<Props> = (props) => {
   const { isPushed, showMenu } = props;
   return (
@@ -44,5 +44,5 @@ const Panel: React.FC<Props> = (props) => {
     </StyledPanel>
   );
 };
-
+*/
 export default Panel;
