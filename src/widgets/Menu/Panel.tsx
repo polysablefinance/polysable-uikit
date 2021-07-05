@@ -33,16 +33,16 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
     width: ${({ isPushed }) => `${isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED}px`};
   }
 `;
-/*
+
 const Panel: React.FC<Props> = (props) => {
   const { isPushed, showMenu } = props;
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/polypup-finance/"><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" /></a>
+      <a target="_blank" rel="noreferrer" href=""><img src="" /></a>
       <PanelFooter {...props} />
     </StyledPanel>
   );
 };
-*/
+
 export default Panel;
