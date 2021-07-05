@@ -110,6 +110,7 @@ const PanelFooter: React.FC<Props> = ({
           })}
         </Flex>
       </SocialEntry>
+
     </Container>
   );
 };
