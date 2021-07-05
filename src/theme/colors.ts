@@ -5,7 +5,7 @@ export const baseColors = {
   primary: "#8e95e8",
   primaryBright: "#8e95e8",
   primaryDark: "#427bf5",
-  secondary: "#857a48",
+  secondary: "#a37960",
   success: "#9B9694",
   warning: "#b07b27",
 };
@@ -17,15 +17,15 @@ export const brandColors = {
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
-  background: "#eda185",
+  background: "#add6f0",
   backgroundDisabled: "#dde6da",
   contrast: "#b08a66",
   invertedContrast: "#f1faee",
   input: "#eeeaf4",
   tertiary: "#EFF4F5",
-  text: "#6e3b6e",
+  text: "#2b636e",
   textDisabled: "#a4a9ab",
-  textSubtle: "#6e3b6e",
+  textSubtle: "#2b636e",
   borderColor: "#8C342B",
   card: "#b08a66",
   gradients: {
@@ -36,7 +36,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#81A594",
+  secondary: "#a37960",
   background: "#8e95e8",
   backgroundDisabled: "#E9EAEB",
   contrast: "#191326",
@@ -46,7 +46,7 @@ export const darkColors: Colors = {
   tertiary: "#f7e9dc",
   text: "#857a48",
   textDisabled: "#BDC2C4",
-  textSubtle: "#81A594",
+  textSubtle: "#a37960",
   borderColor: "#524B63",
   card: "#00628B",
   gradients: {
